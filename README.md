@@ -1,2 +1,6 @@
 # VAE_Notebooks
+This repository is the codebase for the scientific paper: Variational-Autoencoder Architectures for Anomaly Detection in Industrial Processes
 
+In this paper we describe the use of Variational-Autoencoderarchitectures for the unsupervised detection of anomalies in industrialprocesses. To this end we implement a Variational Long Short-TermMemory (LSTM) Autoencoder and a Convolutional Variational Atten-tion Autoencoder with TensorFlow and TensorFlow-Probability and trainit on a variation of the Tennessee-Eastman dataset. We then constructan anomaly score from the Variational Autoencoder’s output makinguse of the Bayesian properties of the trained model. Using the anomalyscore and the autoencoder output we then perform a simple binaryclassification in order to evaluate the improvement of our method overgeneric classifications. This model is benchmarked against supervisedAutoML and a Convolutional Variational Attention Autoencoder. Wefind that Variational-LSTM-Autoencoder and Convolutional VariationalAttention Autoencoder yield promising results in unsupervised anomalydetection and lay groundwork for more complex use cases in industryapplications. 
+
+The fulltext can be found under: https://www.researchgate.net/publication/356537077_Variational-Autoencoder_Architectures_for_Anomaly_Detection_in_Industrial_Processes#fullTextFileContent
